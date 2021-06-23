@@ -5,13 +5,21 @@ import BaiTapComponent from './BaiTapComponent/BaiTapComponent';
 import BaiTapLayoutBoostrap from './BaiTapLayoutBoostrap/BaiTapLayoutBoostrap';
 import Databinding from './Databinding/Databinding';
 import DatabindingF from './Databinding/DatabindingF';
+import HendleVent from './HendleVent/HendleVent';
+import RenderWithState from './RenderWithState/RenderWithState';
+import BaiTapChonXe from './RenderWithState/BaiTapChonXe';
+import RenderWithMap from './RenderWithMap/RenderWithMap';
 function App() {//component gốc của ứng dụng
   return (
     <div className="App">
         {/* <BaiTapComponent/> */}
-        <BaiTapLayoutBoostrap/>
+        {/* <BaiTapLayoutBoostrap/> */}
         {/* <Databinding/> */}
         {/* <DatabindingF/> */}
+        {/* <HendleVent/> */}
+        {/* <RenderWithState/> */}
+        {/* <BaiTapChonXe/> */}
+        <RenderWithMap/>
     </div>
   );
 }
